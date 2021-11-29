@@ -1,0 +1,25 @@
+{
+  "name": "desafio-2-frontend",
+  "version": "1.0.0",
+  "description": "![](https://i.imgur.com/xG74tOh.png)",
+  "main": "script.js",
+  "dependencies": {
+    "cypress": "^8.3.0",
+    "serve": "^12.0.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "start": "serve ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacJBS/desafio-frontend-integral-modulo-02-t04.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/IsaacJBS/desafio-frontend-integral-modulo-02-t04/issues"
+  },
+  "homepage": "https://github.com/IsaacJBS/desafio-frontend-integral-modulo-02-t04#readme"
+}
