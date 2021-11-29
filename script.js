@@ -193,7 +193,7 @@ function abrirModal(param) {
 };
 
 function highlightDoDia () {
-    const respostaPromessa = fetch ('https://tmdb-proxy.cubos-academy.workers.dev/3/movie/438631?language=pt-BR');
+    const respostaPromessa = fetch ('https://tmdb-proxy.cubos-academy.workers.dev/3/movie/580489?language=pt-BR');
 
     respostaPromessa.then( resposta => {
         const promiseFetchHighlight = resposta.json();
@@ -214,7 +214,7 @@ highlightDoDia();
 videoDoHighlight.addEventListener('click', () => assistirTrailer);
 
 function assistirTrailer () {
-    const respostaPromessa = fetch('https://tmdb-proxy.cubos-academy.workers.dev/3/movie/438631/videos?language=pt-BR');
+    const respostaPromessa = fetch('https://tmdb-proxy.cubos-academy.workers.dev/3/movie/580489/videos?language=pt-BR');
     
     respostaPromessa.then( resposta => {
         const promiseFetchFilme = resposta.json();
