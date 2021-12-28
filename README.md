@@ -16,7 +16,7 @@ Neste desafio eu tinha a missão de criar a CubosFlix, e para isso eu consumi a 
 
 ```
 git clone git@github.com:IsaacJBS/desafio-frontend-modulo-2.git
-no vscode, é só utilizar o live server, ou abrir o site diretamente da página
+no vscode, é só utilizar o live server, ou abrir o site diretamente da pasta
 ```
 
 - Ou acessar utilizando este [link](https://isaacjbs.github.io/desafio-frontend-modulo-2/) 👈🏽
