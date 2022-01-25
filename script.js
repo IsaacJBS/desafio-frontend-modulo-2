@@ -192,13 +192,27 @@ function abrirModal(param) {
     });
 };
 
-function highlightDoDia () {
-    const respostaPromessa = fetch ('https://tmdb-proxy.cubos-academy.workers.dev/3/movie/580489?language=pt-BR');
+function teste () {
+    const respostaPromessa = fetch ('https://tmdb-proxy.cubos-academy.workers.dev/3/discover/movie?language=pt-BR&include_adult=false');
 
     respostaPromessa.then( resposta => {
         const promiseFetchHighlight = resposta.json();
 
         promiseFetchHighlight.then( body => {
+            console.log(body)
+        });
+    });
+};
+teste();
+
+function highlightDoDia () {
+    const respostaPromessa = fetch ('https://tmdb-proxy.cubos-academy.workers.dev/3/movie/524434?language=pt-BR');
+
+    respostaPromessa.then( resposta => {
+        const promiseFetchHighlight = resposta.json();
+
+        promiseFetchHighlight.then( body => {
+            console.log(body)
             tituloDoHighlight.textContent = body.title;
             ratingDoHighlight.textContent = body.vote_average;
             videoDoHighlight.style.backgroundImage = `url(${body.backdrop_path})`;
